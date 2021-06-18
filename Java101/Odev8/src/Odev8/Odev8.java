@@ -5,22 +5,22 @@ public class Odev8 {
 	public static void main(String[] args) {
 		
 		int select;
-		double a, b;// Sayilarin bolumleri kusuratli ciktigi icin double aldým.
+		double a, b;// Sayilarin bolumleri kusuratli ciktigi icin double aldÄ±m.
 		Scanner inp = new Scanner(System.in);
 		
 		System.out.print("Birinci sayiyi giriniz:" );
 		a = inp.nextInt();
 		
-		System.out.print("Ýkinci sayiyi giriniz:" );
+		System.out.print("Ä°kinci sayiyi giriniz:" );
 		b = inp.nextInt();
 		
 		System.out.println("1-Toplama\n2-Cikarma\n3-Carpma\n4-Bolme");
-		System.out.print("Seçiminiz: ");
+		System.out.print("SeÃ§iminiz: ");
 		select = inp.nextInt();
 		
 		switch(select) {
 			case 1:
-				System.out.print("Toplamý:" + (a+b));
+				System.out.print("ToplamÄ±:" + (a+b));
 				break;
 			case 2:
 				System.out.print("Farklari:" + (a-b));
@@ -38,7 +38,7 @@ public class Odev8 {
 				break;
 		
 				default:
-					System.out.println("Belirtilen islemlerden birini tercih ediniz:");
+					System.out.println("Belirtilen islemlerden birini tercih ediniz.");
 		}
 		
 		
