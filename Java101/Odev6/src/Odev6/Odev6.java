@@ -6,8 +6,8 @@ public class Odev6 {
 	public static void main(String[] args) {
 		double kilo, boy, sonuc;
 		Scanner inp = new Scanner(System.in);
-		System.out.print("Lutfen boyunuzu metre cinsinden giriniz: ");
-		 
+		
+		System.out.print("Lutfen boyunuzu metre cinsinden giriniz: "); 
 		boy = inp.nextDouble();
 		
 		System.out.print("Lutffen kilonuzu giriniz: ");
