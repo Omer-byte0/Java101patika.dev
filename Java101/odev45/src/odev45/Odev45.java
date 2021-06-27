@@ -7,9 +7,9 @@ public class Odev45 {
 	        System.out.print("Dizinin boyutu n : ");
 	        int n = inp.nextInt();
 	        int[] dizi = new int[n];
-	        System.out.println("Dizinin elemanlarýný giriniz : ");
+	        System.out.println("Dizinin elemanlarini giriniz : ");
 	        for (int i = 0; i < n; i++) {
-	            System.out.print((i + 1) + ". Elemaný : ");
+	            System.out.print((i + 1) + ". Elemani : ");
 	            dizi[i] = inp.nextInt();
 	        }
 	        int tmp = 0;
@@ -22,7 +22,7 @@ public class Odev45 {
 	                }
 	            }
 	        }
-	        System.out.print("Sýralama : ");
+	        System.out.print("Siralama : ");
 	        for(int i : dizi){
 	            System.out.print(i + " ");
 	        }
