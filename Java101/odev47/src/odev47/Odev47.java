@@ -6,18 +6,18 @@ public class Odev47 {
         int m, n;
 
         Scanner inp = new Scanner(System.in);
-        System.out.print("Matrisin satýr sayýný girin : ");
+        System.out.print("Matrisin satir sayini girin : ");
         m = inp.nextInt();
-        System.out.print("Matrisin sütun sayýsýný girin : ");
+        System.out.print("Matrisin sÃ¼tun sayisini girin : ");
         n = inp.nextInt();
 
         int matrix[][] = new int[m][n];
 
-        System.out.println("Matrisin elemanlarýný girin");
+        System.out.println("Matrisin elemanlarini girin");
 
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                System.out.print("Matirisin " + (i + 1) + ". satýr " + (j + 1) + ". sütun elemanýný girin: ");
+                System.out.print("Matirisin " + (i + 1) + ". satir " + (j + 1) + ". sÃ¼tun elemanini girin: ");
                 matrix[i][j] = inp.nextInt();
             }
         }
