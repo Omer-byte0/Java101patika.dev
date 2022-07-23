@@ -29,8 +29,8 @@ public class Odev9 {
 			
 			case 1:
 				System.out.println("Yeni sifre olusturunuz:");
-				String newPassword = inp.next();// Esra arkadaşımın ödevinden aldım. Veritipi olarak tanımlamayarak hem string hem de int olarak veri atayabilmek için.
-												// Ayrıca if döngüsünde int veri tipiyle stringi aynı anda kabul etmiyor.
+				String newPassword = inp.next();//  Veritipi olarak tanÄ±mlamayarak hem string hem de int olarak veri atayabilmek iÃ§in.
+												// AyrÄ±ca if dÃ¶ngÃ¼sÃ¼nde int veri tipiyle stringi aynÄ± anda kabul etmiyor.
 				
 				if(newPassword.equals(passwordLogin) || newPassword.equals(password)) {
 					
@@ -51,7 +51,7 @@ public class Odev9 {
 				break;
 				
 				default:
-					System.out.print("İstenen degerlerden birini seciniz.");
+					System.out.print("Ä°stenen degerlerden birini seciniz.");
 							
 						}
 						
